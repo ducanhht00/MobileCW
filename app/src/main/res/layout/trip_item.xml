@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="8">
+        <TextView
+            android:id="@+id/txtTripName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hallo"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/txtDestination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="jbwejkbvkewbvkejwb"/>
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="jbwejkbvkewbvkejwbww"/>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgEdit"
+        android:layout_width="57sp"
+        android:layout_height="57sp"
+        android:src="@drawable/edit"
+        />
+    <ImageView
+        android:id="@+id/imgDelete"
+        android:layout_width="57sp"
+        android:layout_height="57sp"
+        android:src="@drawable/bin"
+        />
+
+
+
+</LinearLayout>
